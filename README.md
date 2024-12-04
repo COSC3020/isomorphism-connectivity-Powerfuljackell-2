@@ -11,3 +11,7 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Given that the two graphs require a bijection that maps one to the other in this case $f: V_1 \rightarrow V_2$ such that $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
+There is no specification that the graphs need to be completely connected, specifically within the requirements of the bijection they only need to be able to map one edge to another. 
+This would mean that there could be no edges to a node, and so long as there exists a bijection between the two nodes (and they meet all other requirements of the definition of course) then they are isomorphic.
